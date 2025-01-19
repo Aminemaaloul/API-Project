@@ -18,15 +18,12 @@ Authentication: Secure JWT-based authentication for admin endpoints.
 Installation
 Clone the Repository:
 
-bash
-Copy
-git clone https://github.com/Aminemaaloul/flight-delay-compensation-api.git
+
+git clone https://github.com/Aminemaaloul/API-Project.git
 cd flight-delay-compensation-api
 Set Up Environment Variables:
-Create a .env file in the root directory and add the following variables:
 
-plaintext
-Copy
+
 AVIATIONSTACK_API_KEY=your_api_key
 SECRET_KEY=your_secret_key
 JWT_SECRET_KEY=your_jwt_secret_key
@@ -35,18 +32,12 @@ FLASK_ENV=development
 FLASK_DEBUG=1
 Install Dependencies:
 
-bash
-Copy
 pip install -r requirements.txt
 Initialize the Database:
-
-bash
-Copy
 python create_admin.py
 Run the Application:
 
-bash
-Copy
+
 python run.py
 API Endpoints
 Claims
