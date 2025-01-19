@@ -21,24 +21,27 @@ Clone the Repository:
 
 git clone https://github.com/Aminemaaloul/API-Project.git
 cd flight-delay-compensation-api
+
+
 Set Up Environment Variables:
-
-
 AVIATIONSTACK_API_KEY=your_api_key
 SECRET_KEY=your_secret_key
 JWT_SECRET_KEY=your_jwt_secret_key
 FLASK_APP=app
 FLASK_ENV=development
 FLASK_DEBUG=1
-Install Dependencies:
 
+
+Install Dependencies:
 pip install -r requirements.txt
+
 Initialize the Database:
 python create_admin.py
+
 Run the Application:
-
-
 python run.py
+
+
 API Endpoints
 Claims
 Submit a Claim:
