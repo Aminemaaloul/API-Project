@@ -20,7 +20,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/flight-delay-compensation-api.git
+git clone https://github.com/Aminemaaloul/flight-delay-compensation-api.git
 cd flight-delay-compensation-api
 Set Up Environment Variables:
 Create a .env file in the root directory and add the following variables:
